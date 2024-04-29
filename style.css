@@ -434,7 +434,12 @@ footer {
     margin-left: 0.5rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px)
+{
+    .nav ul li
+    {
+        display: none;
+    }
     .footer-info {
         display: flex;
         flex-direction: column;
@@ -460,6 +465,20 @@ footer {
     {
         transition: .5s;
         width: 100%;
+        margin-inline: auto;
+    }
+    .firstText
+    {
+        width: 80%;
+    }
+    .secondText
+    {
+        width: 80%;
+    }
+    .videoWhyAbleton
+    {
+        padding-bottom: 37.50%;
+        max-width: 80%;
     }
 }
 
